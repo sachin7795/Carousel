@@ -1,0 +1,70 @@
+<DOCTYPE !html>
+<html>
+<head>
+	<meta charset="utf=8"/>
+	<title>Carousel using Bootstrap</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css"/>
+	<link rel="stylesheet" href="main.css"/>
+</head>
+<body>
+	<div class="container">
+	<h2 id="head">Carousel using Bootstrap</h2>
+		<div id="my-slider" class="carousel slide" data-ride="carousel">
+			
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<img src="images/1.jpg" alt="1"/>
+					<div class="carousel-caption">
+						<h1>Red Mapple</h1>
+					</div>
+				</div>
+				<div class="item">
+					<img src="images/2.jpg" alt="2"/>
+					<div class="carousel-caption">
+						<h1>Eclipse</h1>
+					</div>
+				</div>
+				<div class="item">
+					<img src="images/3.jpg" alt="3"/>
+					<div class="carousel-caption">
+						<h1>Lake House</h1>
+					</div>
+				</div>
+				<div class="item">
+					<img src="images/4.jpg" alt="4"/>
+					<div class="carousel-caption">
+						<h1>Snowy land</h1>
+					</div>
+				</div>
+				<div class="item">
+					<img src="images/5.jpg" alt="5"/>
+					<div class="carousel-caption">
+						<h1>Orange forest</h1>
+					</div>
+				</div>
+			</div>
+		
+			<a class="left carousel-control" href="#my-slider" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			</a>
+			<a class="right carousel-control" href="#my-slider" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			</a>
+			
+			<ol class="carousel-indicators">
+				<li data-target="#my-slider" data-slide-to="0" class="active"></li>
+				<li data-target="#my-slider" data-slide-to="1"></li>
+				<li data-target="#my-slider" data-slide-to="2"></li>
+				<li data-target="#my-slider" data-slide-to="3"></li>
+				<li data-target="#my-slider" data-slide-to="4"></li>
+			</ol>
+		
+		
+		</div>
+	
+	</div>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+.innerbox img{
+	float : left;
+	position : absolute;
+}
+
+h1{
+	text-align : center;
+	margin : 5px auto 5px 0px;
+	
+	width : 960px;
+	color : red;
+	
+}
+
+#next,#prev{
+	position : relative;
+	float : left;
+}
+
+.dot{
+	position : absolute;
+	z-index : 100;
+	width : 400px;
+	margin-top : 470px;
+	margin-left : 335px;
+	list-style : circle;
+}
+
+.dot li{
+	float : left;
+	margin-left : 40px;
+	font-size : 40px;
+	cursor : pointer;
+}
+
+.activeindi{
+	list-style : disc;
+}
+
+.active{
+	z-index : 10;
+}
+
+#next{
+	margin-left : 840px;
+	z-index : 100;
+	margin-top : 270px;
+	cursor : pointer;
+	position : absolute;
+}
+
+
+
+#prev{
+	margin-left : 30px;
+	margin-top : 270px;
+	z-index : 100;
+	cursor : pointer;
+}
+
+.container{
+
+	margin : auto 190px;;
+}
+
+.innerbox{
+	width : auto;
+	overflow : hidden;
+	height : 540px;
+	width : 960px;
+	position : absolute;
+}
+
+.outerbox{
+	position  :absolute;
+	width : 960px;
+}
